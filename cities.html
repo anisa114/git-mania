@@ -21,7 +21,7 @@
 
   <hr/>
 
-  <ol>
+  <ol id = "myList">
     <li> Hamilton </li>
     <li>Toronto  (2,732,000) </li>
     <li>Shanghai (17,836,133)</li>
@@ -33,5 +33,15 @@
 
   </ol>
 
+
 </body>
+
+<script>
+
+var node = document.createElement("LI");
+node.innerHTML= "Windsor";
+document.getElementById("myList").appendChild(node);
+
+</script>
+
 </html>
